@@ -7,7 +7,7 @@ This is an AppleScript that's designed to be used with Raycast. It's a quick way
 ```
 git clone https://github.com/MaxPower15/open-url-in-chrome.git
 cd open-url-in-chrome
-RAYCAST_SCRIPTS_DIR="configure-your-scripts-dir-here"
+export RAYCAST_SCRIPTS_DIR="configure-your-scripts-dir-here"
 mkdir -p "$RAYCAST_SCRIPTS_DIR/"
 cp raycast-scripts/* "$RAYCAST_SCRIPTS_DIR/"
 # After that, modify $RAYCAST_SCRIPTS_DIR/open-chat-gpt-in-chrome.sh to point to the correct path to open-url-in-chrome.applescript.
