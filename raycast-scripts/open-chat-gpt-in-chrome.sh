@@ -4,4 +4,4 @@
 # @raycast.mode silent
 # @raycast.icon chatgpt-white-on-black-circle-background.png
 
-osascript ~/bin/open-url-in-chrome.applescript "https://chatgpt.com"
+osascript ../open-url-in-chrome.applescript "https://chatgpt.com"
